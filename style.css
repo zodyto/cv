@@ -1,0 +1,71 @@
+/***************************TAG SELECTORS***************************/
+
+body {
+    margin: 0;
+    /* Centers everything that does not have a width set*/
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+/* 
+centers all the element that does have a width
+margin: 0 auto 0 auto;
+*/
+
+h1 {
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+}
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/***************************CLASS SELECTORS***************************/
+
+.top-container {
+    padding-top: 100px;
+    background-color: #DEFCF9;
+    position: relative;
+}
+
+.middle-container {
+    height: 200px;
+    width: 200px;
+    border: solid 20px;
+    margin-left: 260px;
+    background-color: purple;
+}
+
+.bottom-container {
+    height: 200px;
+    width: 200px;
+    border: solid 10px;
+    margin-left: 500px;
+    background-color: rgb(0, 255, 68);
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+/***************************ID SELECTORS***************************/
